@@ -29,65 +29,122 @@
     />
   </head>
   <body>
-      <!-- Header -->
-      <div class="app">
-          <header class="header">
-              <div class="grid wide">
-                  <div class="header__navbar--top">
-                      <div class="header--with--search">
-                          <div class="header__logo--search">
-                              <div class="header__logo--menu">
-                                <div class="menu__logo">
-                                    <img src="./assets/images/logo.png" alt="" class="menu__logo--img">
-                                </div>
-  
-                                <div class="menu__product">
-                                    <a href="" class="menu__product--btn">
-                                        <img src="./assets/images/menu--hambuger.png" alt="" class = "menu__product--img">
-                                    </a>
-                                    <div class="menu__product--category">
-                                        <p class="menu__product--category--text">
-                                            Danh mục
-                                        </p>
-                                        <div class="menu__product--category--product">
-                                            <span>sản phẩm</span>
-                                            <i class='menu__product--category--icon bx bxs-down-arrow'></i>
-                                        </div>
-                                    </div>
-                                </div>
-                              </div>
-                            
-
-                              <div class="header__search">
-                                <div class="header__search-input-wrap">
-                                    <input type="text" class="header__search-input" placeholder="Nhập để tìm kiếm sản phẩm ...">
-                                </div>
-                                <button class="header__search--btn">
-                                  <i class='bx bx-search-alt' ></i>
-                                  <span>Tìm kiếm</span>
-                                </button>
-                            </div>
-
-                          
-                          </div>
-                        
-
-                      </div>
-
-                      <div class="header--with--register">
-
-                      </div>
+    <!-- Header -->
+    <div class="app">
+      <header class="header">
+        <div class="grid wide">
+          <div class="header__navbar--top">
+            <div class="header--with--search">
+              <div class="header__logo--search">
+                <div class="header__logo--menu">
+                  <div class="menu__logo">
+                    <img
+                      src="./assets/images/logo.png"
+                      alt=""
+                      class="menu__logo--img"
+                    />
                   </div>
 
-                  <nav class="header__navbar--bottom">
+                  <div class="menu__product">
+                    <a href="" class="menu__product--btn">
+                      <img
+                        src="./assets/images/menu--hambuger.png"
+                        alt=""
+                        class="menu__product--img"
+                      />
+                    </a>
+                    <div class="menu__product--category">
+                      <p class="menu__product--category--text">Danh mục</p>
+                      <div class="menu__product--category--product">
+                        <span>sản phẩm</span>
+                        <i
+                          class="
+                            menu__product--category--icon
+                            bx
+                            bxs-down-arrow
+                          "
+                        ></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
 
-                  </nav>
+                <div class="header__search">
+                  <div class="header__search-input-wrap">
+                    <input
+                      type="text"
+                      class="header__search-input"
+                      placeholder="Nhập để tìm kiếm sản phẩm ..."
+                    />
+                  </div>
+                  <button class="header__search--btn">
+                    <i class="header__search--btn--icon bx bx-search-alt"></i>
+                    <span class="header__search--btn--text">Tìm kiếm</span>
+                  </button>
+                </div>
+
+                <div class="header__account--cart">
+                  <div class="header__account--create">
+                    <div class="header__user">
+                      <i class="header__user--icon bx bx-user"></i>
+                    </div>
+                    <div class="header__account">
+                      <p class="header__account--register">
+                        đăng nhập/ đăng ký
+                      </p>
+                      <p class="header__account--down">
+                        tài khoản
+                        <span
+                          ><i
+                            class="header__account--icon bx bxs-down-arrow"
+                          ></i
+                        ></span>
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="header__account--choose">
+                    <ul class="header__account--list">
+                      <li class="header__account--item">
+                        <a href="#" class="header__account--item--link">Đăng nhập</a>
+                      </li>
+                      <li class="header__account--item">
+                        <a href="#" class="header__account--item--link">Tạo tài khoản</a>
+                      </li>
+                      <li class="header__account--item">
+                        <a href="#" class="header__account--item--icon"><i class='bx bxl-facebook' ></i></a>
+                        <a href="#" class="header__account--item--link">Đăng nhập bằng Facebook</a>
+                      </li>
+                      <li class="header__account--item">
+                        <a href="#" class="header__account--item--icon"><i class='bx bxl-google' ></i></a>
+                        <a href="#" class="header__account--item--link">Đăng nhập bằng Google</a>
+                      </li>
+                      <li class="header__account--item">
+                        <a href="#" class="header__account--item--icon"><i class='bx bxl-instagram' ></i></i></a>
+                        <a href="#" class="header__account--item--link">Đăng nhập bằng Instagram</a>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="header__cart">
+                    <i class="header__cart--icon bx bx-cart">
+                      <span class="header__cart--number">3</span>
+                    </i>
+                    <span class="header__cart--text"> Giỏ hàng</span>
+                  </div>
+                </div>
               </div>
-          </header>
-      </div>
+            </div>
 
-      <!-- End of header -->
+            <div class="header--with--register"></div>
+          </div>
 
+          <nav class="header__navbar--bottom"></nav>
+        </div>
+      </header>
+    </div>
+
+    <!-- End of header -->
 
     <script src="./assets/js/main.js"></script>
   </body>
