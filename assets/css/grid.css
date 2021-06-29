@@ -5,7 +5,7 @@
 }
 
 .grid.wide {
-    max-width: 1440px;
+    max-width: 1240px;
     margin: 0 auto;
 }
 
@@ -31,7 +31,6 @@
     padding-right: 0;
 }
 
-/* Mobile */
 .c-0 {
     display: none;
 }
@@ -436,9 +435,9 @@
 }
 
 /* > PC low resolution */
-@media (min-width: 1024px) and (max-width: 1440px) {
+@media (min-width: 1024px) and (max-width: 1239px) {
     .wide {
-        width: 940px;
+        width: 984px;
     }
 
     .wide .row {
@@ -449,11 +448,6 @@
     .wide .row.sm-gutter {
         margin-left: -5px;
         margin-right: -5px;
-    }
-
-    .wide .row.no-gutters {
-        margin-left: 0px;
-        margin-right: 0px;
     }
 
     .wide .col {
