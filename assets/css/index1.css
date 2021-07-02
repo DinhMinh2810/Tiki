@@ -331,6 +331,7 @@
   align-items: center;
   flex-basis: 140px;
   cursor: pointer;
+  margin-left: 10px;
   transition: all 2s linear 1s;
 }
 
@@ -460,9 +461,15 @@
 .header__account--link--app {
   color: #ffffff;
 }
+
 .header__cart {
   align-self: stretch;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  flex: 1;
+  justify-content: space-between;
+  margin-left: 20px;
 }
 
 .header__cart--icon {

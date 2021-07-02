@@ -1,0 +1,50 @@
+/* Mobile & tablet */
+@media (max-width: 1023px) {
+    :root {
+        --header-height: 90px;
+      }
+
+    .hide-on-mobile-tablet {
+        display: none;
+      }
+
+      .header__logo--menu {
+          flex: 1;
+      }
+}
+
+@media (min-width: 1024px) and (max-width: 1238px) {
+    .header__search {
+        margin-left: 10px;
+    }
+
+    .header__account {    
+    margin-left: 10px;
+    }
+
+    .header__cart--icon {
+    margin-right: 20px;
+    }
+
+    .header__navbar--ship {
+        flex-basis: 205px;
+    }
+    
+    .header__account--choose {
+        top: 113%;
+    }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .hide-on-tablet {
+        display: none;
+      }
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    .hide-on-mobile {
+        display: none;
+      }
+}

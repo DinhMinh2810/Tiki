@@ -6,7 +6,7 @@
   --black-light-color: #292929;
   --text-color: #00003a;
 
-  --header-height: 102px;
+
   --header-height-top: 70px;
   --header-height-bottom: calc(var(--header-height) - var(--header-height-top));
 }
