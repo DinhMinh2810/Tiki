@@ -11,8 +11,13 @@
   .header__logo--menu {
     flex: 1;
   }
-  app {
+
+  .app {
     overflow: hidden;
+  }
+
+  .highlight__category--see {
+    display: block;
   }
 }
 
