@@ -43,6 +43,11 @@
   .hide-on-tablet {
     display: none;
   }
+
+  .shock__product--progress {
+    min-width: 22px;
+  }
+
 }
 
 /* Mobile */
@@ -66,6 +71,21 @@
     overflow: hidden;
   }
 
+  .history__category {
+    grid-template-columns: repeat(3, 1fr);
+    gap: unset;
+  }
+
+  .price__shock--today {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .shock__product--progress {
+    min-width: 10px;
+  }
+
   .slide__phone {
     padding: 0 12px;
   }
@@ -78,4 +98,5 @@
   .next {
     padding: 5px;
   }
+
 }

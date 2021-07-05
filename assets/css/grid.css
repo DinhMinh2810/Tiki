@@ -432,6 +432,7 @@
     .wide {
         width: 644px;
     }
+    
 }
 
 /* > PC low resolution */
@@ -441,8 +442,8 @@
     }
 
     .wide .row {
-        margin-left: -12px;
-        margin-right: -12px;
+        margin-left: -4px;
+        margin-right: -4px;
     }
 
     .wide .row.sm-gutter {
@@ -451,8 +452,8 @@
     }
 
     .wide .col {
-        padding-left: 12px;
-        padding-right: 12px;
+        padding-left: 4px;
+        padding-right: 4px;
     }
 
     .wide .row.sm-gutter .col {

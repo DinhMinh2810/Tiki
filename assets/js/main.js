@@ -1,5 +1,3 @@
-const inputSearch = document.querySelector(".header__search-input-wrap");
-const historySearch = document.querySelector(".header__search--history");
 const slides = document.querySelectorAll(".mySlides");
 const dots = document.querySelectorAll(".dot");
 const prev = document.querySelector(".prev");
@@ -11,11 +9,6 @@ const timeSeconds = document.querySelector(".shock__time--seconds");
 const outTime = document.querySelector(".shock__time--coutdown");
 let slideIndex = 1;
 showSlides(slideIndex);
-
-// Search function
-inputSearch.addEventListener("click", () => {
-  historySearch.classList.toggle("show__history");
-});
 
 // Slide ad
 let plusSlides = function (n) {
@@ -90,3 +83,6 @@ const x = setInterval(() => {
     outTime.style.color = "rgb(120, 120, 120)";
   }
 }, 0);
+
+// Slick
+
