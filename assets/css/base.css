@@ -35,6 +35,10 @@ a {
   text-decoration: none;
 }
 
+.active {
+  border: 1px solid rgb(13, 92, 182);
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;
