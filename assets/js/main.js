@@ -7,8 +7,29 @@ const timeHours = document.querySelector(".shock__time--hours");
 const timeMinutes = document.querySelector(".shock__time--minutes");
 const timeSeconds = document.querySelector(".shock__time--seconds");
 const outTime = document.querySelector(".shock__time--coutdown");
+const modal = document.querySelector(".modal");
+const modalOverLay = document.querySelector(".modal__overlay");
+const modalBtns = document.querySelectorAll(".header__account--modal");
+const modalCancelBtn = document.querySelector(".modal__cancel");
 let slideIndex = 1;
 showSlides(slideIndex);
+
+// Modal
+modalBtns.forEach((btn) => {
+  btn.onclick = () => {
+    modal.style.display = "flex";
+  };
+});
+
+modalCancelBtn.onclick = () => {
+  modal.style.display = "none";
+};
+
+window.onclick = function (e) {
+  if (e.target === modalOverLay) {
+    modal.style.display = "none";
+  }
+};
 
 // Slide ad
 let plusSlides = function (n) {

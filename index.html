@@ -243,10 +243,10 @@
 
                     <div class="header__account--choose">
                       <ul class="header__account--list">
-                        <li class="header__account--item">
+                        <li class="header__account--item header__account--modal">
                           <a href="#" class="header__account--item--link">Đăng nhập</a>
                         </li>
-                        <li class="header__account--item">
+                        <li class="header__account--item header__account--modal">
                           <a href="#" class="header__account--item--link">Tạo tài khoản</a>
                         </li>
                         <li class="header__account--item header__account--item--app">
@@ -317,6 +317,9 @@
           <div class="col l-8 m-12 c-12 slide__phone">
             <div class="slideshow__container">
               <div class="mySlides fade">
+                <img src="./assets/images/slide7.jpg" alt="" class="mySlides__img">
+              </div>
+              <div class="mySlides fade">
                 <img src="./assets/images/slide1.jpg" alt="" class="mySlides__img">
               </div>
               <div class="mySlides fade">
@@ -345,6 +348,7 @@
                 <span class="dot" data-id ="4"></span> 
                 <span class="dot" data-id ="5"></span> 
                 <span class="dot" data-id ="6"></span> 
+                <span class="dot" data-id ="7"></span> 
               </div>
             </div>
          
@@ -1471,6 +1475,64 @@
         </div>
       </div>
     </section>
+
+    <!-- Modal -->
+    <div class="modal">
+      <div class="modal__overlay">
+      </div>
+      <div class="modal__body">
+        <div class="auth__form">
+          <div class="form__login">
+            <h4 class="form__login--hi">Xin chào,</h4>
+            <p class="form__login--text">Đăng nhập hoặc tạo tài khoản</p>
+            <form>
+              <div class="form__login--form">
+                <input class="form__login--input" type="tel" name="tel" placeholder="Nhập số điện thoại" value="">
+                <button class="form__login--btn">Tiếp Tục</button>
+              </div>
+            </form>
+            <p class="form__login--email">Đăng nhập bằng email</p>
+            <div class="form__login--icon">
+              <p class="social-heading">
+                <span>Hoặc tiếp tục bằng</span>
+              </p>
+              <ul class="social__items--list">
+                <li class="social__items">
+                  <a href="#" class="social__items--link">
+                    <img src="https://salt.tikicdn.com/ts/upload/3a/22/45/0f04dc6e4ed55fa62dcb305fd337db6c.png" class="social__items--img" alt="facebook">
+                  </a>
+                </li>
+                <li class="social__items">
+                  <a href="#" class="social__items--link">
+                    <img src="https://salt.tikicdn.com/ts/upload/1c/ac/e8/141c68302262747f5988df2aae7eb161.png" class="social__items--img" alt="google">
+                  </a>
+                </li>
+                <li class="social__items">
+                  <a href="#" class="social__items--link">
+                    <img src="https://salt.tikicdn.com/ts/upload/98/37/86/517cfc05f04466b3118357a1fb4182c8.png" class="social__items--img" alt="zalo">
+                  </a>
+                </li>
+              </ul>
+              <p class="form__login--note">
+                Bằng việc tiếp tục, bạn đã chấp nhận
+                <a href="#" class="form__login--note--link">
+                  điều khoản sử dụng
+                </a>
+              </p>
+            </div>
+          </div>
+          <div class="form__with--img">
+            <img src="https://salt.tikicdn.com/ts/upload/eb/f3/a3/25b2ccba8f33a5157f161b6a50f64a60.png" width="203">
+            <div class="form__with--content"><h4>Mua sắm tại Tiki</h4><span>Siêu ưu đãi mỗi ngày</span></div>
+          </div>
+
+          <div class="modal__cancel">
+            <img src="https://salt.tikicdn.com/ts/upload/fe/20/d7/6d7764292a847adcffa7251141eb4730.png" alt="icon" class="modal__cancel--img">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of modal -->
     
     <!-- Slick -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -1478,8 +1540,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="./assets/js/slick.js"></script>
     <script src="./assets/js/main.js"></script>
-
-</script>
 
   </body>
 </html>
