@@ -28,6 +28,14 @@
     position: unset;
   }
 
+  .footer__support {
+    padding-left: 16px;
+  }
+
+  .footer__license {
+    text-align: center;
+  }
+
 }
 
 @media (min-width: 1024px) and (max-width: 1238px) {
@@ -105,10 +113,6 @@
     min-width: 10px;
   }
 
-  .slide__phone {
-    padding: 0 12px;
-  }
-
   .slide__dot {
     top: 80%;
   }
@@ -117,6 +121,5 @@
   .next {
     padding: 5px;
   }
-
 
 }
